@@ -1,0 +1,12 @@
+//Caso o VS Code não permita rodar scripts e comandos angular dentro do terminal 
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+//Para instalar o angular
+npm install -g @angular/cli
+//Cria o app
+ng new my-dream-app
+//Entra no app pelo prompt
+cd my-dream-app
+//Abre o app online
+mg serve-o
